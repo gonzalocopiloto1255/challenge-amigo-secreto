@@ -1,4 +1,4 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí
 
 // Desafío 1: Crear un array para almacenar los nombres
 let amigos = [];
@@ -20,4 +20,23 @@ function agregarAmigo() {
 
   // Limpiar el campo de entrada
   input.value = "";
+
+  // Actualizar la lista visual
+  actualizarListaAmigos();
+}
+
+// Desafío 3: Implementar función para actualizar la lista de amigos
+function actualizarListaAmigos() {
+  // Obtener el elemento de la lista
+  const lista = document.getElementById("listaAmigos");
+
+  // Limpiar la lista existente
+  lista.innerHTML = "";
+
+  // Iterar sobre el arreglo amigos y crear elementos de lista
+  for (let i = 0; i < amigos.length; i++) {
+    const li = document.createElement("li");
+    li.textContent = amigos[i];
+    lista.appendChild(li);
+  }
 }
