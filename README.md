@@ -78,7 +78,7 @@ challenge-amigo-secreto/
 
 ## Demo en vivo
 
-Puedes ver la aplicación funcionando en: [GitHub Pages URL]
+Puedes ver la aplicación funcionando en: [https://gonzalocopiloto1255.github.io/challenge-amigo-secreto](https://gonzalocopiloto1255.github.io/challenge-amigo-secreto)
 
 ## Contribuciones
 
